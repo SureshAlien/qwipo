@@ -75,6 +75,7 @@ def createDepartment(data):
 
 @frappe.whitelist()
 def deleteDepartment(data):
+    "Delete a Department"
     if frappe.get_doc("Department Q", data.get("name")):
         filters={"name":data.get("name")}
         frappe.db.delete("Department Q", filters)
