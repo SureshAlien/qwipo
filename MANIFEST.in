@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include qwipo *.css
+recursive-include qwipo *.csv
+recursive-include qwipo *.html
+recursive-include qwipo *.ico
+recursive-include qwipo *.js
+recursive-include qwipo *.json
+recursive-include qwipo *.md
+recursive-include qwipo *.png
+recursive-include qwipo *.py
+recursive-include qwipo *.svg
+recursive-include qwipo *.txt
+recursive-exclude qwipo *.pyc
